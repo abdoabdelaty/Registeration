@@ -1,0 +1,40 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  background-color: #24353f;
+}
+.main-input {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  width: 55%;
+  height: 20%;
+}
+.my-container {
+  max-width: 1140px !important;
+}
+.hett {
+  height: calc(100vh - 64px);
+}
+.my-container button {
+  border-color: rgb(194, 194, 60);
+}
+.navbar {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) !important;
+}
+#btn-logout {
+  background-color: transparent;
+  color: rgb(155, 166, 168);
+  font-size: 16px;
+  border: 1px solid #ffc107;
+  padding: 7px 9px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#btn-logout:hover {
+  background-color: #ffc107;
+  color: rgb(255, 255, 255);
+}
+.main-input h1 {
+  font-size: 40px;
+  line-height: 48px;
+  color: rgb(23, 162, 184);
+  font-weight: 500;
+}
